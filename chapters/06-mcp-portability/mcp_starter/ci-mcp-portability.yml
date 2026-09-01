@@ -1,0 +1,25 @@
+# Chapter 6's portability job (ch06:119-141). Copy to .github/workflows/
+# in your own prep repo — it is not run from here.
+# The three run steps say python3 where the book prints python: stock
+# Ubuntu 22.04+ ships no bare 'python'.
+name: mcp-portability
+on: [push, pull_request]
+jobs:
+  portability:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Python and SDK
+        run: pip install claude-agent-sdk
+      - name: Set required env vars
+        run: |
+          echo "GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+      - name: Verify MCP servers register
+        run: python3 tests/verify_mcp_servers.py
+      - name: Run wrong-tool-routing test
+        run: python3 tests/routing_test.py
+      - name: Run injection-defense test
+        run: python3 tests/injection_test.py

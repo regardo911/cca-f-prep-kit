@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "match": {
+          "tool": "Bash",
+          "command_pattern": "git commit.*"
+        },
+        "command": "ruff check . --fix --silent",
+        "blocking": false
+      }
+    ]
+  }
+}

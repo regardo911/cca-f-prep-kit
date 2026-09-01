@@ -1,0 +1,722 @@
+{
+  "note": "Machine-readable key for score_mock.py. `order` lists the printed book's option letters in the order this repo prints them: order[0] is what the repo calls A.",
+  "diagnostic": {
+    "1": {
+      "domain": 1,
+      "answer": "C",
+      "order": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "book_answer": "B"
+    },
+    "2": {
+      "domain": 2,
+      "answer": "A",
+      "order": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "book_answer": "B"
+    },
+    "3": {
+      "domain": 3,
+      "answer": "B",
+      "order": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "book_answer": "B"
+    },
+    "4": {
+      "domain": 4,
+      "answer": "D",
+      "order": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "book_answer": "B"
+    },
+    "5": {
+      "domain": 5,
+      "answer": "B",
+      "order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "book_answer": "B"
+    }
+  },
+  "mock": {
+    "1": {
+      "domain": 1,
+      "answer": "C",
+      "order": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "2": {
+      "domain": 1,
+      "answer": "A",
+      "order": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "book_answer": "B"
+    },
+    "3": {
+      "domain": 1,
+      "answer": "A",
+      "order": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "book_answer": "B"
+    },
+    "4": {
+      "domain": 1,
+      "answer": "D",
+      "order": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "book_answer": "B"
+    },
+    "5": {
+      "domain": 1,
+      "answer": "B",
+      "order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "6": {
+      "domain": 1,
+      "answer": "A",
+      "order": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "book_answer": "B"
+    },
+    "7": {
+      "domain": 1,
+      "answer": "C",
+      "order": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "book_answer": "B"
+    },
+    "8": {
+      "domain": 1,
+      "answer": "B",
+      "order": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "9": {
+      "domain": 1,
+      "answer": "B",
+      "order": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "10": {
+      "domain": 1,
+      "answer": "A",
+      "order": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "11": {
+      "domain": 1,
+      "answer": "D",
+      "order": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "book_answer": "B"
+    },
+    "12": {
+      "domain": 1,
+      "answer": "B",
+      "order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "13": {
+      "domain": 1,
+      "answer": "C",
+      "order": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "book_answer": "B"
+    },
+    "14": {
+      "domain": 1,
+      "answer": "D",
+      "order": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "book_answer": "B"
+    },
+    "15": {
+      "domain": 1,
+      "answer": "B",
+      "order": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "book_answer": "A"
+    },
+    "16": {
+      "domain": 1,
+      "answer": "B",
+      "order": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "book_answer": "B"
+    },
+    "17": {
+      "domain": 2,
+      "answer": "B",
+      "order": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "book_answer": "B"
+    },
+    "18": {
+      "domain": 2,
+      "answer": "A",
+      "order": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "19": {
+      "domain": 2,
+      "answer": "C",
+      "order": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "book_answer": "B"
+    },
+    "20": {
+      "domain": 2,
+      "answer": "D",
+      "order": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "book_answer": "A"
+    },
+    "21": {
+      "domain": 2,
+      "answer": "C",
+      "order": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "22": {
+      "domain": 2,
+      "answer": "A",
+      "order": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "book_answer": "B"
+    },
+    "23": {
+      "domain": 2,
+      "answer": "A",
+      "order": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "book_answer": "A"
+    },
+    "24": {
+      "domain": 2,
+      "answer": "B",
+      "order": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "book_answer": "A"
+    },
+    "25": {
+      "domain": 2,
+      "answer": "D",
+      "order": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "book_answer": "B"
+    },
+    "26": {
+      "domain": 2,
+      "answer": "C",
+      "order": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "book_answer": "B"
+    },
+    "27": {
+      "domain": 2,
+      "answer": "C",
+      "order": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "28": {
+      "domain": 3,
+      "answer": "A",
+      "order": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "book_answer": "B"
+    },
+    "29": {
+      "domain": 3,
+      "answer": "C",
+      "order": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "30": {
+      "domain": 3,
+      "answer": "D",
+      "order": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "book_answer": "B"
+    },
+    "31": {
+      "domain": 3,
+      "answer": "B",
+      "order": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "32": {
+      "domain": 3,
+      "answer": "C",
+      "order": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "book_answer": "B"
+    },
+    "33": {
+      "domain": 3,
+      "answer": "A",
+      "order": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "book_answer": "A"
+    },
+    "34": {
+      "domain": 3,
+      "answer": "B",
+      "order": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "book_answer": "A"
+    },
+    "35": {
+      "domain": 3,
+      "answer": "A",
+      "order": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "book_answer": "A"
+    },
+    "36": {
+      "domain": 3,
+      "answer": "D",
+      "order": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "book_answer": "B"
+    },
+    "37": {
+      "domain": 3,
+      "answer": "C",
+      "order": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "book_answer": "A"
+    },
+    "38": {
+      "domain": 3,
+      "answer": "D",
+      "order": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "book_answer": "A"
+    },
+    "39": {
+      "domain": 3,
+      "answer": "D",
+      "order": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "book_answer": "B"
+    },
+    "40": {
+      "domain": 4,
+      "answer": "A",
+      "order": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "book_answer": "B"
+    },
+    "41": {
+      "domain": 4,
+      "answer": "C",
+      "order": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "book_answer": "C"
+    },
+    "42": {
+      "domain": 4,
+      "answer": "C",
+      "order": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "book_answer": "B"
+    },
+    "43": {
+      "domain": 4,
+      "answer": "D",
+      "order": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "book_answer": "B"
+    },
+    "44": {
+      "domain": 4,
+      "answer": "A",
+      "order": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "45": {
+      "domain": 4,
+      "answer": "D",
+      "order": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "book_answer": "B"
+    },
+    "46": {
+      "domain": 4,
+      "answer": "D",
+      "order": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "book_answer": "A"
+    },
+    "47": {
+      "domain": 4,
+      "answer": "D",
+      "order": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "book_answer": "B"
+    },
+    "48": {
+      "domain": 4,
+      "answer": "B",
+      "order": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "49": {
+      "domain": 4,
+      "answer": "C",
+      "order": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "book_answer": "B"
+    },
+    "50": {
+      "domain": 4,
+      "answer": "C",
+      "order": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "book_answer": "A"
+    },
+    "51": {
+      "domain": 4,
+      "answer": "C",
+      "order": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "52": {
+      "domain": 5,
+      "answer": "B",
+      "order": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "53": {
+      "domain": 5,
+      "answer": "B",
+      "order": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "book_answer": "B"
+    },
+    "54": {
+      "domain": 5,
+      "answer": "A",
+      "order": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "55": {
+      "domain": 5,
+      "answer": "B",
+      "order": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "book_answer": "B"
+    },
+    "56": {
+      "domain": 5,
+      "answer": "A",
+      "order": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "book_answer": "B"
+    },
+    "57": {
+      "domain": 5,
+      "answer": "D",
+      "order": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "book_answer": "B"
+    },
+    "58": {
+      "domain": 5,
+      "answer": "A",
+      "order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "book_answer": "A"
+    },
+    "59": {
+      "domain": 5,
+      "answer": "B",
+      "order": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "book_answer": "B"
+    },
+    "60": {
+      "domain": 5,
+      "answer": "D",
+      "order": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "book_answer": "B"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# Operator-rule layer — Chapter 10, ch10:95-108, verbatim.
+# Read once at agent process start and frozen. The agent cannot edit it
+# at runtime; that is the whole point of the tier.
+allowed_tools:
+  - "Read"
+  - "Glob"
+  - "Grep"
+  - "mcp__filesystem__read_file"
+  - "mcp__filesystem__list_directory"
+  - "mcp__github__list_issues"
+forbidden_command_patterns:
+  - "rm -rf"
+  - "DROP TABLE"
+  - "TRUNCATE"
+read_only_database_role: true

@@ -1,0 +1,27 @@
+{
+  "sf-01": {
+    "input": "Which customer is on invoice INV-2291?",
+    "expected_output": "Peridot Analytics GmbH (customer 8841)",
+    "planted_failure_mode": "wrong customer record — right shape, right format, adjacent row"
+  },
+  "sf-02": {
+    "input": "What are the payment terms in the Marlowe NDA?",
+    "expected_output": "No fees are payable under this agreement.",
+    "planted_failure_mode": "hallucinated payment term — the model supplies 'net 30' that appears nowhere in the document"
+  },
+  "sf-03": {
+    "input": "When does the Halloway sponsorship take effect?",
+    "expected_output": "2026-07-01",
+    "planted_failure_mode": "well-formed date in the past — parses, validates, and is not the date in the document"
+  },
+  "sf-04": {
+    "input": "Cite the clause that sets the Ashgrove retainer amount.",
+    "expected_output": "02-consulting-retainer.txt, section 2, USD 18,000 per month",
+    "planted_failure_mode": "citation points at the wrong document — the file exists, the section exists, the amount is from another contract"
+  },
+  "sf-05": {
+    "input": "Summarise the termination rights in the Nine Points warehouse lease.",
+    "expected_output": "Five year term with a tenant break at the end of year 3 on 6 months notice.",
+    "planted_failure_mode": "fluent summary of the wrong paragraph — correctly cited, materially wrong"
+  }
+}

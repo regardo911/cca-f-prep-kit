@@ -1,0 +1,7 @@
+<!-- Copy to ./CLAUDE.local.md at your project root, then gitignore it.
+     Kept under a .example name here so it is not picked up as a live
+     Local-scope file while it sits inside this repo. -->
+
+# Local-Only Rules
+- Do not commit the contents of secrets/ to git, ever.
+- When debugging, prefer breakpoints over print statements.

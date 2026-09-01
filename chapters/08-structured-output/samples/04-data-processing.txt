@@ -1,0 +1,31 @@
+DATA PROCESSING ADDENDUM
+
+Effective date: 2026-02-20
+
+PARTIES
+
+This agreement is made between Sable & Rowe Legal ("Sable") and Ternwell Cloud Services ("Ternwell").
+
+1. PURPOSE
+
+Ternwell Cloud Services processes personal data on behalf of Sable & Rowe Legal as controller.
+
+2. PAYMENT TERMS
+
+No separate fee. Processing is covered by the fees in the master services agreement.
+
+3. TERM AND TERMINATION
+
+This addendum lasts as long as Ternwell processes controller data, and survives 90 days past the master agreement for deletion and certification.
+
+4. GOVERNING LAW
+
+This agreement is governed by the laws of Ireland and the parties submit to the exclusive
+jurisdiction of its courts.
+
+5. ENTIRE AGREEMENT
+
+This document is the entire agreement between the parties on its subject matter
+and supersedes all prior discussions, whether written or oral.
+
+SIGNED for and on behalf of the parties on the effective date above.

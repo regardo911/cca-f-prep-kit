@@ -1,0 +1,10 @@
+{
+  "gs-01": { "text": "my card was declined twice at checkout", "correct_label": "billing" },
+  "gs-02": { "text": "the api has been returning 503 for twenty minutes", "correct_label": "outage" },
+  "gs-03": { "text": "please remove the second seat from our plan", "correct_label": "billing" },
+  "gs-04": { "text": "how do i rotate an api key", "correct_label": "how-to" },
+  "gs-05": { "text": "webhooks stopped firing across all our endpoints", "correct_label": "outage" },
+  "gs-06": { "text": "can you send a copy of the october invoice", "correct_label": "billing" },
+  "gs-07": { "text": "what is the rate limit on the batch endpoint", "correct_label": "how-to" },
+  "gs-08": { "text": "everything is timing out since the deploy", "correct_label": "outage" }
+}
